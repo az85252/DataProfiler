@@ -73,6 +73,18 @@ def plot_histograms(profiler, columns=None):
     plt.show()
     return fig
 
+def graph_missing_values(profiler):
+    """
+    Take a input of StructuredProfiler class and then plots the graphs
+    of missing (null) values.
+
+    :param profiler: StructuredProfiler variable
+    :type profiler: StructuredProfiler
+    :return:
+    :rtype:
+    """
+
+    return
 
 def plot_col_histogram(data_type_profiler, ax=None, title=None):
     """

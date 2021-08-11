@@ -85,3 +85,10 @@ class TestPlotColHistogram(unittest.TestCase):
                                                 "therefore could not be "
                                                 "plotted."):
             graphs.plot_col_histogram(profiler)
+
+@mock.patch("dataprofiler.reports.graphs.plt.show")
+class TestPlotMissingValues(unittest.TestCase):
+
+    @classmethod
+    def setUpClass(cls):
+        pass
